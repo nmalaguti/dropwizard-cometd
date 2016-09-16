@@ -1,0 +1,9 @@
+template: Hello, %s!
+defaultName: Stranger
+
+assets:
+  overrides:
+    /: src/main/resources/assets/
+
+server:
+  rootPath: /api/*
